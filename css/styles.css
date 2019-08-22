@@ -91,6 +91,11 @@ section h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+
+}
+
+navbar-collapse .collapse .show {
+  color: #FA6400;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -112,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #fa6400 !important;
   background-color: transparent;
 }
 
@@ -479,4 +484,18 @@ img.fdb-icon{
 
 .white {
   color: #FFF;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #FA6400;
+  border-color: #ff920a;
+}
+
+.btn-primary:hover {
+  background-color: #ff920a;
+  border-color: #FA6400;
 }
